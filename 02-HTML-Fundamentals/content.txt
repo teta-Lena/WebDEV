@@ -30,5 +30,4 @@ To hand-craft beautiful websites instead of relying on tools like Worpress or Wi
 To build web applications
 To impress friends
 To have fun 😃
-
 Hopefully you learned something new here. See you next time!
