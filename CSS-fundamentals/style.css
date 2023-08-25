@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 nav {
   background-color: blanchedalmond;
   padding: 10px;
@@ -24,6 +28,7 @@ h1,
 h2,
 h3 {
   color: #1098ad;
+  margin: 15px 10px;
 }
 h2 {
   font-size: 40px;
@@ -38,8 +43,15 @@ p {
 
 li {
   font-family: sans-serif;
+  padding: 10px;
+  margin: 5px;
 }
-
+article h3,
+article p,
+article li {
+  padding: 10px;
+  margin: 5px;
+}
 /* footer p {
   font-size: 16px;
 } */
@@ -67,15 +79,19 @@ li {
 
 .related {
   list-style: none;
+  padding: 10px;
+  margin: 5px;
 }
 
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px;
 }
 
 aside {
   background-color: #f7f7f7;
   border: 5px solid #1098ad;
+  padding: 50px 10px 30px;
 }
 
 li:first-child {
@@ -117,6 +133,8 @@ a:active {
 
 #copyright {
   color: red;
+  padding: 10px;
+  margin: 5px;
 }
 
 .copyright {
@@ -128,4 +146,33 @@ a:active {
 
 footer p {
   color: green;
+}
+
+article img {
+  padding: 10px;
+  margin: 5px;
+}
+
+h2::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h3 + p::first-line {
+  color: red;
+}
+h2 {
+  /* background-color: orange;  */
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  background-color: rgb(218, 218, 33);
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
 }
