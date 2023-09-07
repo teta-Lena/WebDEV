@@ -125,7 +125,7 @@ li:last-child {
 }
 
 .related-author {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -198,7 +198,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -304,3 +304,33 @@ aside {
 footer {
   clear: both;
 }
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.related-posts {
+  display: flex;
+  align-items: center;
+  /* flex: 0 1 300px; */
+}
+.all-content {
+  display: flex;
+  align-items: flex-start;
+}
+.article-cls {
+  flex: 0 1 835;
+}
+
+.related-hrefs:link {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+}
+.related-author {
+  font-weight: normal;
+  font-size: 14px;
+  font-style: italic;
+}
+5
